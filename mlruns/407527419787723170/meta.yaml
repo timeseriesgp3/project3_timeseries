@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/407527419787723170
+creation_time: 1741559014603
+experiment_id: '407527419787723170'
+last_update_time: 1741559014603
+lifecycle_stage: active
+name: time_series_forecast

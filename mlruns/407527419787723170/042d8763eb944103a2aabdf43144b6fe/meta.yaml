@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/407527419787723170/042d8763eb944103a2aabdf43144b6fe/artifacts
+end_time: 1741560534074
+entry_point_name: ''
+experiment_id: '407527419787723170'
+lifecycle_stage: active
+run_id: 042d8763eb944103a2aabdf43144b6fe
+run_name: ETS_Forecast
+run_uuid: 042d8763eb944103a2aabdf43144b6fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741560533510
+status: 3
+tags: []
+user_id: ibrah

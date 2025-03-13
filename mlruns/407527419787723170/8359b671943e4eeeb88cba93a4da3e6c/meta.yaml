@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/407527419787723170/8359b671943e4eeeb88cba93a4da3e6c/artifacts
+end_time: 1741559088708
+entry_point_name: ''
+experiment_id: '407527419787723170'
+lifecycle_stage: active
+run_id: 8359b671943e4eeeb88cba93a4da3e6c
+run_name: SARIMA_Model
+run_uuid: 8359b671943e4eeeb88cba93a4da3e6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741559084961
+status: 3
+tags: []
+user_id: ibrah

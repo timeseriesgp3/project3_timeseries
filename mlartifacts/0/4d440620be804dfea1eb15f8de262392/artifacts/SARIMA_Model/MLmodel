@@ -1,0 +1,20 @@
+artifact_path: SARIMA_Model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.20.3
+model_size_bytes: 29463618
+model_uuid: 02e68f9949024a5b89970827c6cfa08b
+run_id: 4d440620be804dfea1eb15f8de262392
+utc_time_created: '2025-03-13 19:08:01.035827'

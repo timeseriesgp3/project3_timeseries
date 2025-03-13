@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/407527419787723170/51b8d2da057845ec9788fa507145ec5e/artifacts
+end_time: 1741559077018
+entry_point_name: ''
+experiment_id: '407527419787723170'
+lifecycle_stage: active
+run_id: 51b8d2da057845ec9788fa507145ec5e
+run_name: SES_Model
+run_uuid: 51b8d2da057845ec9788fa507145ec5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741559073285
+status: 3
+tags: []
+user_id: ibrah
