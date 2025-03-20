@@ -88,7 +88,7 @@ All models were evaluated using metrics:
 
 ### ✅ Step 1: Clone the Repository
 
-git clone https://github.com/your-username/video-game-sales-forecast.git
+git clone [https://github.com/your-username/video-game-sales-forecast.git](https://github.com/timeseriesgp3/project3_timeseries.git)
 cd video-game-sales-forecast
 
 ### ✅ Step 2: Create a Virtual Environment
