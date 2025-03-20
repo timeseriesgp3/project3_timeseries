@@ -10,26 +10,39 @@ This project leverages **Time Series Analysis & Machine Learning** models to **f
 ## 📌 Project Objectives
 - Analyze historical video game sales data.
 - Forecast future sales using Time Series models: **ARIMA, SARIMA, Holt-Winters (ETS), and SES**.
-- Implement **machine learning forecasting models** such as **Random Forest, Decision Trees, and XGBoost** with feature importance.
 - Build and deploy a **Streamlit dashboard app** for interactive forecasting and scenario analysis.
 
 ---
 
 ## 📂 Repository Structure
 ├── app.py # Streamlit dashboard application 
+
 ├── notebook.ipynb # Jupyter notebook for modeling & EDA 
-├── models/ │ 
+
+├── models/ │
+
 ├── arima_model.pkl │ 
-├── hw_model.pkl │ 
-├── ses_model.pkl │ 
-├── sarima_model.pkl │ 
+
+├── hw_model.pkl │
+
+├── ses_model.pkl │
+
+├── sarima_model.pkl │
+
 └── feature_columns.pkl # Feature list used by ML models 
-├── data/ │ 
-└── video_game_sales.csv # Original dataset 
+
+├── data/ │
+
+└── video_game_sales.csv # Original dataset
+
 ├── setup.sh # Heroku/Streamlit setup file 
+
 ├── requirements.txt # Python dependencies 
+
 ├── Procfile # Deployment configuration for Heroku 
+
 ├── runtime.txt # Python runtime version 
+
 └── README.md # Documentation guide
 
 
@@ -62,10 +75,6 @@ This project leverages **Time Series Analysis & Machine Learning** models to **f
 - **SES** (Simple Exponential Smoothing)
 - **Holt-Winters Exponential Smoothing** (Additive & Multiplicative)
 
-### Machine Learning Models:
-- **XGBoost Regressor**
-- **Random Forest Regressor**
-- **Decision Tree Regressor**
 
 All models were evaluated using metrics:
 - **MAE (Mean Absolute Error)**
@@ -102,12 +111,15 @@ Ensure setup.sh, Procfile, and runtime.txt are included.
 Push to a Heroku-connected GitHub repo.
 Set web: streamlit run app.py in Procfile.
 
+### Recommendation
+- Implement **machine learning forecasting models** such as **Random Forest, Decision Trees, and XGBoost** with feature importance.
+
+
 ### 📚 References & Tools
 Python, Pandas, Numpy
 Matplotlib, Seaborn
 Statsmodels
 Scikit-learn
-XGBoost
 Streamlit
 MLflow (for tracking & versioning)
 
