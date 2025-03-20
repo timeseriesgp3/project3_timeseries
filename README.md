@@ -16,7 +16,21 @@ This project leverages **Time Series Analysis & Machine Learning** models to **f
 ---
 
 ## 📂 Repository Structure
-├── app.py # Streamlit dashboard application ├── notebook.ipynb # Jupyter notebook for modeling & EDA ├── models/ │ ├── arima_model.pkl │ ├── hw_model.pkl │ ├── ses_model.pkl │ ├── sarima_model.pkl │ └── feature_columns.pkl # Feature list used by ML models ├── data/ │ └── video_game_sales.csv # Original dataset ├── setup.sh # Heroku/Streamlit setup file ├── requirements.txt # Python dependencies ├── Procfile # Deployment configuration for Heroku ├── runtime.txt # Python runtime version └── README.md # Documentation guide
+├── app.py # Streamlit dashboard application 
+├── notebook.ipynb # Jupyter notebook for modeling & EDA 
+├── models/ │ 
+├── arima_model.pkl │ 
+├── hw_model.pkl │ 
+├── ses_model.pkl │ 
+├── sarima_model.pkl │ 
+└── feature_columns.pkl # Feature list used by ML models 
+├── data/ │ 
+└── video_game_sales.csv # Original dataset 
+├── setup.sh # Heroku/Streamlit setup file 
+├── requirements.txt # Python dependencies 
+├── Procfile # Deployment configuration for Heroku 
+├── runtime.txt # Python runtime version 
+└── README.md # Documentation guide
 
 
 ---
